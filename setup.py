@@ -17,7 +17,7 @@ setup(
     author_email='se-dmc@bhp.org.bw',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/covid19-vaccine/esr21',
+    url='',
     license='GPL license, see LICENSE',
     description='ESR21',
     long_description=README,
