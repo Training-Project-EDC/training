@@ -59,12 +59,12 @@ urlpatterns = [
 
     path('administration/', AdministrationView.as_view(),
          name='administration_url'),
-    # path('admin/esr21_subject/',
-    #      RedirectView.as_view(url='admin/esr21_subject/'),
-    #      name='esr21_subject_models_url'),
-    # path('admin/esr21_prn/',
-    #      RedirectView.as_view(url='admin/esr21_prn/'),
-    #      name='esr21_prn_models_url'),
+    path('admin/training_subject/',
+         RedirectView.as_view(url='admin/training_subject/'),
+         name='training_subject_models_url'),
+    path('admin/training_prn/',
+         RedirectView.as_view(url='admin/training_prn/'),
+         name='training_prn_models_url'),
 
     path('edc_base/', include('edc_base.urls')),
     path('edc_consent/', include('edc_consent.urls')),
